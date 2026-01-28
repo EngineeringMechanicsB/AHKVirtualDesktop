@@ -1,4 +1,4 @@
-# Windows Virtual Desktop Helper (AutoHotkey v2)
+# Windows Virtual Desktop
 This is a small AutoHotkey project that provides lightweight virtual desktop and window management features for Windows. It was originally built for my own daily work needs and later shared publicly in case it may be useful to others.
 The script keeps things simple — no heavy UI, no installation, and no system-level modifications — just keyboard-driven utilities to manage windows more efficiently.
 ## ✨ Features
@@ -48,7 +48,8 @@ Transparency Adjust
 Alt + Mouse Wheel
 And more (see code for full list).
 ## 🛠 Requirements
-Turn off Windows animations
+Turn off Windows animation
+
 AutoHotkey v2
 
 This script was created because I often needed to keep many windows open for work, but the machine was shared with other people. I couldn't install extra software or modify the system much, so I wrote a simple tool that improved my workflow without changing the environment.
