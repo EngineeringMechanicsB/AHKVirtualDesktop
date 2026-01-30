@@ -12,7 +12,7 @@ If you have similar needs, I hope this script can be helpful to you as well.
 
 ---
 
-## Features & Goals
+## ✨Features & Goals
 
 The goal of this script is to provide basic window management and productivity features with as little external dependency as possible.
 
