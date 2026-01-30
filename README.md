@@ -37,9 +37,9 @@ Everything is implemented in a single AHK script.
 
 ## Screenshots
 
-![Virtual desktops](images/1.gif)
-![Bar](images/1.png)
-![Pie menu](images/2.png)
+![1](image/1.gif)
+![2](image/1.png)
+![3](image/2.png)
 
 ---
 
