@@ -1,28 +1,57 @@
-# Windows Virtual Desktop
-This is a small AutoHotkey project that provides lightweight virtual desktop and window management features for Windows. It was originally built for my own daily work needs and later shared publicly in case it may be useful to others.
-The script keeps things simple — no heavy UI, no installation, and no system-level modifications — just keyboard-driven utilities to manage windows more efficiently.
+# AHK WM
 
-## ✨ Features
-Virtual desktop switching (up to 9 desktops)
-Move windows between desktops
-Pie menu for directional actions
-Status bar with time and work progress display
-Auto-generated configuration file
-Clipboard recovery output
-Optional Vim floating window integration
-Optional terminal launcher
-Minimal footprint, no background services
+---
 
-## Hotkeys Overview
-Help Menu
+This is a small personal project created to solve my own workflow needs.
 
-Alt + /
+At work, I often have to keep a large number of windows open at the same time.  
+The computer is shared with other people, so installing or configuring complex tiling window managers is not an option.  
+Because of that, I wrote this AutoHotkey script to manage windows in a lightweight and self-contained way.
 
-## 🛠 Requirements
-Turn off Windows animation
+If you have similar needs, I hope this script can be helpful to you as well.
 
-AutoHotkey v2
+---
 
+## Features & Goals
 
-This script was created because I often needed to keep many windows open for work, but the machine was shared with other people. I couldn't install extra software or modify the system much, so I wrote a simple tool that improved my workflow without changing the environment.
-Since it solved my own problem, I thought it might be helpful to share it with others as well.
+The goal of this script is to provide basic window management and productivity features with as little external dependency as possible.
+
+All you need to do is:
+
+- install **AutoHotkey v2**
+- disable Windows window animations
+- run the script
+
+The script currently includes:
+
+- 9 virtual desktops  
+- KDE-style window dragging  
+- Window transparency control  
+- A minimal status bar  
+- Clipboard management  
+- A customizable radial (pie) menu  
+
+Everything is implemented in a single AHK script.
+
+---
+
+## Screenshots
+
+![Virtual desktops](images/1.gif)
+![Bar](images/1.png)
+![Pie menu](images/2.png)
+
+---
+
+## Installation
+
+1. Install **AutoHotkey v2**
+2. Download or clone this repository
+3. Run the script by double-clicking it  
+
+Alternatively, you can download and run the precompiled `.exe` file if you prefer.
+
+---
+
+This is a purely hobby project.  
+Feedback, suggestions, and criticism are all welcome.
